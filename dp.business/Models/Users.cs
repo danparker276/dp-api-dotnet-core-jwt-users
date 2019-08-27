@@ -1,6 +1,6 @@
 ﻿using dp.business.Enums;
 
-namespace fox.datasimple.Models
+namespace dp.business.Models
   
 {
     public class User

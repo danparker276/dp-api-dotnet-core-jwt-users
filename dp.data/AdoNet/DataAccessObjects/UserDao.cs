@@ -1,7 +1,6 @@
 ﻿using dp.business.Enums;
+using dp.business.Models;
 using dp.data.AdoNet.SqlExecution;
-using dp.data.Interfaces;
-using fox.datasimple.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
