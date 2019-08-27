@@ -38,6 +38,7 @@ namespace dp.api.Controllers
         [AllowAnonymous]
         [HttpPost("authenticate")]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesDefaultResponseType]
         public async Task<ActionResult<AccessToken>> Authenticate([FromBody]TokenRequest userParam)
         {
