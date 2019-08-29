@@ -80,6 +80,8 @@ namespace dp.api
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info { Title = "DP API", Version = "V1" });
+                var filePath = Path.Combine(System.AppContext.BaseDirectory, "dp.api.xml");
+                c.IncludeXmlComments(filePath);
             });
 
         }
